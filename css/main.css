@@ -1,3 +1,31 @@
-/*
- * Estilos de tu proyecto
- */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;900&family=Montserrat:wght@900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    display:flex;
+    flex-flow: row;
+    justify-content:space-around;
+    background-color: #2c3e50;
+    height: 15%;
+    font-family: 'Montserrat', 'Lato';
+    color: white;
+    
+}
+
+#firstSection{
+    font-size: 170%;
+    align-self: center;
+}
+
+#secondSection{
+    display: flex;
+    flex-flow: row wrap;
+    justify-items: space-around;
+    align-items: center;
+    gap: 15px;
+}
