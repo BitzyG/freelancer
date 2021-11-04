@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800;300&display=swap');
 
 /*-----------------CSS Contact me-----------------*/
 .contact{
@@ -102,3 +101,51 @@ border-bottom: 2px solid rgb(228, 214, 214);
     padding: 10px;
     border-radius:5px;
 }
+
+
+ footer {
+  height: 17rem;
+  background-color: #2c3e50;
+  color: white;
+  font-family: 'Lato';
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+ }
+ #inner-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+ }
+ .footer-containers {
+  width: 14rem;
+}
+ .footer-titles {
+  font-weight: 400;
+   font-size: 1.3rem;
+   margin-bottom: 1.3rem;
+ }
+ .footer-btns{
+   height: 3rem;
+   width: 3rem;
+   background-color: #2c3e50;
+   border-radius: 60%;
+   border: solid white;
+ }
+ .footer-btns:hover{
+  background-color: white;
+  transition: .6s;
+ }
+ .footer-icons:hover {
+  color: #2c3e50;
+  transition: .6s;
+ }
+ .footer-icons {
+  font-size: 1.3rem;
+  color: white;
+ }
+ #copyright{
+   padding-top: 1rem;
+   font-weight: 100;
+ }
